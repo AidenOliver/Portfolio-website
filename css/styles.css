@@ -25,14 +25,12 @@ body {
     color: floralwhite;
 }
 
-.row-header {
+h2 {
     margin-top: 35px;
+    padding: 0px 160px 0px 160px;
 }
 
-.list-item {
-    padding: 0px 20px 0px 20px;
-    font-size: 20px;
-}
+
 
 
 
