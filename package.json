@@ -6,14 +6,22 @@
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "clean": "rimraf-dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* --out-dir=dist/img"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cssmin": "^0.4.3",
+    "htmlmin": "0.0.7",
     "lite-server": "^2.5.4",
     "node-less": "^1.0.0",
-    "popper.js": "^1.16.0"
+    "popper.js": "^1.16.0",
+    "rimraf": "^3.0.0",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.5.1"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",

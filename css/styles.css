@@ -1,0 +1,46 @@
+.navbar-dark {
+    background-color: rgb(30, 124, 119);
+}
+
+.navbar-brand {
+    font-size: 28px;
+}
+
+body {    
+    background: floralwhite;
+}
+
+.navbar-nav {
+    font-size: 20px;
+}
+
+.nav-item {
+    padding: 0px 15px 0px 15px;
+}
+
+.jumbotron {
+    padding: 70px 30px 35px 30px;
+    margin: 0px auto;
+    background: lightseagreen;
+    color: floralwhite;
+}
+
+.row-header {
+    margin-top: 35px;
+}
+
+.list-item {
+    padding: 0px 20px 0px 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
