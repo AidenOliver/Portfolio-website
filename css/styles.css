@@ -7,7 +7,8 @@
 }
 
 body {    
-    background: floralwhite;
+    background: rgb(87, 85, 81);
+    z-index: 0;
 }
 
 .navbar-nav {
@@ -27,8 +28,20 @@ body {
 
 h2 {
     margin-top: 35px;
-    padding: 0px 160px 0px 160px;
 }
+
+h1 {
+    padding-top: 20px;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 75px 0px 75px 0px;
+    border-bottom: 1px ridge;
+    min-height: 100px;
+}
+
+
 
 
 
