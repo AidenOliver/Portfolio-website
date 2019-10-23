@@ -56,8 +56,8 @@ h1 {
 }
 
 .frame {
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     overflow: hidden;
 }
 
@@ -67,9 +67,9 @@ h1 {
     transition: all 1s ease;
 }
 
-.img:hover {
+.frame img:hover {
     height: 300px;
-    width: 300px; 
+    width: 260px; 
 }
 
 .footer {
@@ -114,7 +114,7 @@ h1 {
     height: 230px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .frame2 {
         background-color: #9575cd;
         width: 300px;
