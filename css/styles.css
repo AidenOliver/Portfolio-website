@@ -55,6 +55,12 @@ h1 {
     min-height: 100px;
 }
 
+.row-content2 {
+    margin: 0px auto;
+    padding: 50px 0px 60px 0px;
+    min-height: 100px;
+}
+
 .frame {
     height: 350px;
     width: 350px;
@@ -112,6 +118,10 @@ h1 {
 .frame3 img:hover {
     width: 230px;
     height: 230px;
+}
+
+.social1 {
+    font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {
