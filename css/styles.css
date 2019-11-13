@@ -17,6 +17,10 @@ body {
     font-size: 20px;
 }
 
+.dates {
+    padding-left: 16px;
+}
+
 .nav-item {
     padding: 0px 15px 0px 15px;
 }
@@ -61,7 +65,9 @@ h3 {
     font-size: 40px;
 }
 
-
+.entries {
+    padding-bottom: 25px;
+}
 
 h2 {
     margin-top: 35px;
