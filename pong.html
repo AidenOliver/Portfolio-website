@@ -27,7 +27,6 @@
                     <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
                     <li class="nav-item active"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./blog.html">Blog</a></li>
                 </ul>
             </div>
         </div>
@@ -48,18 +47,28 @@
     <div class="container">
         <div class="row row-content d-flex justify-content-center">
             <div class="col-12 col-sm-8">
-                <img src="imgs/ponggame2.png" class="img-fluid border border-dark">
+                <canvas id="pong" class="img-fluid border dark"></canvas>
+                <p>Refreshing the page will reset the game</p>
             </div>
             <div class="col-12 col-sm-8">
                 <h1>Pong.js</h1>
                 <p>One of my earlier projects, pong. To get a grasp of the JavaScript syntax I used Object Oriented Programming.
-                    This can be very helpful for when there is a lot of JavaScript code, this helps the developer understand
+                    This can be very helpful for when there is a lot of JavaScript code amd helps the developer understand
                     the code a lot easier by assigning objects to variables and functions. This is seen a lot within game development,
                     but also with web development too.
                 </p>
                 <p>I used pong because of the simplicity of the game and because it helped me undertand the core principles of
                     Object Oriented Programming. Even though the game has a relatively easy concept, it was still very challenging to
                     make.
+                </p>
+                <p>
+                    After finishing the game I realized there's a JavaScript framework called phaser.js. It's a framework designed around making games with JavaScript syntax
+                    and I've seen it run in the browser but it might be able run in different applications I'm not sure. There are a lot
+                    of other frameworks out there, another is called PyGame. It uses python syntax and runs in the terminal. I will take a look into 
+                    them soon. Creating games is a fun and interesting challenge that I think anyone in coding should get into.
+                    JavaScript is a widely used language that is relatively easy to use and comes has various frameworks and libraries.
+                    For now I'm going to continue with more web dev projects and see if I can use JavaScript to leverage my 
+                    web applications.
                 </p>
             </div>
         </div>
@@ -91,6 +100,7 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/pong.js"></script>
     <!-- endbuild-->
 </body>
 

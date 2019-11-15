@@ -2,6 +2,11 @@
     background-color: lightseagreen;
 }
 
+canvas {
+    width: 650px;
+    height: 450px;
+}
+
 
 
 .navbar-brand {
@@ -121,15 +126,16 @@ h1 {
 
 .frame2 img {
     width: 200px;
-    height: 200px;
-    margin: 60px 0px 0px 150px;
+    height: 195px;
+    margin: 60px 0px 0px 155px;
     transition: all 1s ease;
 }
 
 .frame2 img:hover {
-    width: 230px;
-    height: 230px;
+    width: 220px;
+    height: 220px;
 }
+
 
 .frame3 {
     background-color: black;
@@ -139,14 +145,14 @@ h1 {
 
 .frame3 img {
     width: 200px;
-    height: 150px;
+    height: 100px;
     margin: 60px 0px 0px 150px;
     transition: all 1s ease;
 }
 
 .frame3 img:hover {
-    width: 230px;
-    height: 180px;
+    width: 220px;
+    height: 130px;
 }
 
 .social1 {
@@ -172,7 +178,7 @@ h1 {
     .frame2 img {
         width: 100px;
         height: 100px;
-        margin: 37px 0px 0px 100px;
+        margin: 37px 0px 0px 80px;
         transition: all 1s ease;
     }
 
@@ -189,8 +195,8 @@ h1 {
     
     .frame3 img {
         width: 100px;
-        height: 100px;
-        margin: 37px 0px 0px 100px;
+        height: 70px;
+        margin: 37px 0px 0px 80px;
         transition: all 1s ease;
     }
 
