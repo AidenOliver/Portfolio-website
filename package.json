@@ -10,7 +10,7 @@
     "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin imgs/* --out-dir=dist/imgs",
-    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin portfolio.html -d dist --htmlmin -o dist/portfolio.html && usemin ristorante.html -d dist --htmlmin -o dist/ristorante.html && usemin pong.html -d dist --htmlmin -o dist/pong.html",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin portfolio.html -d dist --htmlmin -o dist/portfolio.html && usemin firstsite.html -d dist --htmlmin -o dist/firstsite.html && usemin ristorante.html -d dist --htmlmin -o dist/ristorante.html && usemin pong.html -d dist --htmlmin -o dist/pong.html",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
   },
   "author": "",
