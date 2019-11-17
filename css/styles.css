@@ -122,37 +122,54 @@ h1 {
     background-color: #9575cd;
     width: 555px;
     height: 350px;
+    transition: all 1s ease;
+    border-color: lightseagreen;
+}
+
+.frame2:hover {
+    border: 10px lightseagreen ridge;
 }
 
 .frame2 img {
     width: 200px;
     height: 195px;
-    margin: 60px 0px 0px 155px;
-    transition: all 1s ease;
+    margin: 60px 0px 0px 150px;
 }
-
-.frame2 img:hover {
-    width: 220px;
-    height: 220px;
-}
-
 
 .frame3 {
     background-color: black;
     width: 555px;
     height: 350px;
+    transition: all 1s ease;
+    border-color: lightseagreen;
+}
+
+.frame3:hover {
+    border: 10px lightseagreen ridge;
 }
 
 .frame3 img {
     width: 200px;
     height: 100px;
-    margin: 60px 0px 0px 150px;
-    transition: all 1s ease;
+    margin: 90px 0px 0px 150px;
 }
 
-.frame3 img:hover {
-    width: 220px;
-    height: 130px;
+.frame4 {
+    background-color: #343233;
+    width: 555px;
+    height: 350px;
+    transition: all 1s ease;
+    border-color: lightseagreen;
+}
+
+.frame4:hover {
+    border: 10px lightseagreen ridge;
+}
+
+.frame4 img {
+    width: 200px;
+    height: 100px;
+    margin: 100px 0px 0px 155px;
 }
 
 .social1 {
@@ -178,14 +195,9 @@ h1 {
     .frame2 img {
         width: 100px;
         height: 100px;
-        margin: 37px 0px 0px 80px;
-        transition: all 1s ease;
+        margin: 37px 0px 0px 85px;
     }
 
-    .frame2 img:hover {
-        width: 115px;
-        height: 115px;
-    }
 
     .frame3 {
         background-color: black;
@@ -196,13 +208,21 @@ h1 {
     .frame3 img {
         width: 100px;
         height: 70px;
-        margin: 37px 0px 0px 80px;
-        transition: all 1s ease;
+        margin: 40px 0px 0px 80px;
     }
 
-    .frame3 img:hover {
-        width: 115px;
-        height: 115px;
+
+    .frame4 {
+        background-color: #343233;
+        width: 300px;
+        height: 175px;
+        
+    }
+    
+    .frame4 img {
+        width: 120px;
+        height: 70px;
+        margin: 37px 0px 0px 75px;
     }
 }
 

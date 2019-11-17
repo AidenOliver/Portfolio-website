@@ -26,7 +26,7 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#">Portfolio</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
                 </ul>
             </div>
         </div>
@@ -35,48 +35,63 @@
     <header class="header">
         <div class="container">
             <div class="row row-header">
-                <div class="col-12 col-sm-6">
-                    <h3>Front-end Web Developer</h3>
-                    <p>Providing great user experience and quality websites for businesses, start-ups and agencies</p>
+                <div class="col-auto col-sm-6">
+                    <h3>First Website</h3>
+                    <p>Responsive website made HTML, CSS and JavaScript(JQuery)</p>
                 </div>
             </div>
         </div>
     </header>
 
-            
     <div class="container">
         <div class="row row-content d-flex justify-content-center">
-            <div class="col-auto col-sm-8 d-flex justify-content-center">
-                <div class="frame2">
-                    <a class="nav-link" href="./ristorante.html">
-                        <img src="imgs/Screenshot (11).png" class="img-fluid rounded-circle">
-                    </a>
-                </div>
+            <div class="col-12 col-sm-8">
+                <img src="imgs/firstsite.png" class="img-fluid border border-dark">
             </div>
-           
-            <div class="col-auto col-sm-8 d-flex justify-content-center">
-                <div class="frame3">
-                    <a class="nav-link" href="./pong.html">
-                        <img src="imgs/ponggame2.png" class="img-fluid">
-                    </a>
-                </div>
+            <div class="col-12 col-sm-8">
+                <h1>CAPStone Project</h1>
+                <p> Ristorante Con Fusion is a website for a fictional restaurant that serves Italian and Indian food.
+                    The site contains carousel sliders that show images every 5 seconds and then rotates another image.
+                    The carousel has buttons so the user can pause or go back to the previous image. 
+                </p>
             </div>
+        </div>
+    </div>
 
-            <div class="col-auto col-sm-8 d-flex justify-content-center">
-                <div class="frame4">
-                    <a class="nav-link" href="./firstsite.html">
-                        <img src="imgs/firstsitethumbnail.png" class="img-fluid">
-                    </a>
+    <div class="container">
+        <div class="row row-content de-flex justify-content-center">
+            <div class="col-12 col-sm-8 col-lg-4">
+                <h1>Mobile-first</h1>
+                <p> When I first started building the website I started from mobile-up which meant starting the layout based on phone-size
+                    and then added to it so it could fit with desktop, laptop, ipad, etc.. The navigation collapses into a button
+                    that will display the navigation vertically when the screen width drops below a certain width. This makes it
+                    easier for mobile users to tap the navigation bar with their phone.
+                </p>
+                <p> Responsive development plays an important role in websites and apps so it's important to
+                    make sure every aspect of the site should be smooth for every device. 
+                </p>
+                <p> I used Bootstrap when working on the project and it has shown great results. Taking advantage of the predefined
+                    classes and attributes yielded a faster time to get the website done while making sure it was fully responsive 
+                    at the same time. 
+                </p>
+            </div>
+            <div class="col-12 col-sm-8 col-lg-4">
+                <div class="carousel slide" id="mycarousel" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="imgs/mobileristorante.png" class="d-block img-fluid border border-dark">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/mobilenavristorante.png" class="d-block img-fluid border border-dark">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    
-
-    
 
     <footer class="footer">
-        <div class="container">
+         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-12 align-self-center">
                     <div class="text-center">
@@ -92,7 +107,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+         </div>
     </footer>
     
     <!-- Jquery, Popper.js and Bootstrap -->
